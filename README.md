@@ -37,5 +37,5 @@ The COCO TXT annotation files will be saved in the `output_dir` directory. Each 
 ## License
 This repository is licensed under the MIT License.
 
-Author
+## Author
 This repository was created by Farhat Rekaya.
