@@ -13,7 +13,7 @@ where:
 <br>
 * `input_dir` is the directory containing the Pascal VOC XML annotation files
 * `output_dir` is the directory where the COCO TXT annotation files will be saved
-<br>
+
 ## Example
 
 The following example shows how to convert all of the Pascal VOC XML annotation files in the `input_dir` directory to COCO TXT annotation files in the `output_dir` directory:
