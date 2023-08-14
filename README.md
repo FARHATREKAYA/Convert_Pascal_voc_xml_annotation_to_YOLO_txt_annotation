@@ -16,7 +16,7 @@ where:
 
 ## Example
 
-The following example shows how to convert all of the Pascal VOC XML annotation files in the `input_dir` directory to COCO TXT annotation files in the `output_dir` directory:
+The following example shows how to convert all of the Pascal VOC XML annotation files in the `input_dir` directory to YOLO TXT annotation files in the `output_dir` directory:
 ```rb
 python convert_xml_to_txt.py <input_dir> <output_dir>
 ```
