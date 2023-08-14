@@ -1,6 +1,6 @@
-# Convert Pascal VOC XML Annotation to COCO TXT Annotation
+# Convert Pascal VOC XML Annotation to YOLO TXT Annotation
 
-This repository contains a Python script that converts Pascal VOC XML annotation files to COCO TXT annotation files.
+This repository contains a Python script that converts Pascal VOC XML annotation files to YOLO TXT annotation files.
 
 ## Usage
  To use the script, simply run the following command:
@@ -12,7 +12,7 @@ python convert_xml_to_txt.py <input_dir> <output_dir>
 where:
 <br>
 * `input_dir` is the directory containing the Pascal VOC XML annotation files
-* `output_dir` is the directory where the COCO TXT annotation files will be saved
+* `output_dir` is the directory where the YOLO TXT annotation files will be saved
 
 ## Example
 
@@ -23,7 +23,7 @@ python convert_xml_to_txt.py <input_dir> <output_dir>
 
 ## Output
 
-The COCO TXT annotation files will be saved in the `output_dir` directory. Each file will contain the following information:
+The YOLO TXT annotation files will be saved in the `output_dir` directory. Each file will contain the following information:
   
 * The class ID of the object
 * The center coordinates of the object
